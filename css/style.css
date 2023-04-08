@@ -169,7 +169,7 @@ hero
     flex-wrap: wrap;
     align-content: center;
     justify-items: right;
-    margin: 0 auto;
+    margin: 0 0;
 
 }
 
@@ -353,6 +353,10 @@ media query mobile
         font-size: 36px;
     }
 
+    h2 {
+        font-size: 26px;
+    }
+
     .header-logo img {
         width: 75px;
         height: auto;
@@ -363,13 +367,22 @@ media query mobile
         flex-direction: column;
     }
 
+    .nav-primary ul li {
+        flex-direction: column;
+        margin: 15 px 0px;
+        display: none;
+
+    }
+
+
+
     .hero-content {
         flex-direction: column-reverse;
        
     }
     
     .hero-content-visual {
-        justify-items: center;
+        justify-content: center;
         padding-top: 15px;
     }
 
