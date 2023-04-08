@@ -169,7 +169,7 @@ hero
     flex-wrap: wrap;
     align-content: center;
     justify-items: right;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
@@ -345,8 +345,29 @@ media query mobile
 
 @media only screen and (max-width: 600px){
     
+    .p {
+        font-size: 14px;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+
+
+    .hero-content {
+        flex-direction: column-reverse;
+       
+    }
     
-    
+    .hero-content-visual {
+        justify-items: center;
+    }
+
+    .hero-content-text {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
     .card-left {
         flex-direction: column;
         align-items: center;
@@ -365,9 +386,7 @@ media query mobile
         margin: 20px 20px;
     }
 
-    .p {
-        font-size: 14px;
-    }
+
     
     .footer {
         flex-direction: column;
