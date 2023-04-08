@@ -345,13 +345,23 @@ media query mobile
 
 @media only screen and (max-width: 600px){
     
-    .p {
+    p {
         font-size: 14px;
     }
-    .h1 {
-        font-size: 28px;
+
+    h1 {
+        font-size: 36px;
     }
 
+    .header-logo img {
+        width: 75px;
+        height: auto;
+        
+    }
+
+    .header {
+        flex-direction: column;
+    }
 
     .hero-content {
         flex-direction: column-reverse;
@@ -360,6 +370,7 @@ media query mobile
     
     .hero-content-visual {
         justify-items: center;
+        padding-top: 15px;
     }
 
     .hero-content-text {
