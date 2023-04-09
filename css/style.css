@@ -195,6 +195,7 @@ Competencies
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 2% 0%;
   
 
 }
@@ -211,6 +212,14 @@ Competencies
    
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
 .skills-list {
     padding: 0;
 }
@@ -223,6 +232,8 @@ Competencies
 
 .white-text {
     color: white;
+    margin-block-start: 10px;
+    text-align: center;
 }
 
 /*
@@ -296,8 +307,10 @@ footer
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 80px 0px 0px;
+padding: 20px 0px 20px 0px;
 justify-content: center;
+background-color: white;
+margin-top: 100px
 
 }
 
@@ -422,6 +435,7 @@ media query mobile
     
     .footer {
         flex-direction: column;
+        padding: 30px 0 0 0;
     }
 
 } 
